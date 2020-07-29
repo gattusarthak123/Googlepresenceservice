@@ -1,0 +1,89 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645.jpg);
+    background-size: 100%;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginbox
+{
+    width: 320px;
+    height: 420px;
+    background: transparent;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    position: absolute ;
+    top: -100px;
+    left: 110px;
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+    float: left;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+
+}
+::placeholder
+{
+    color: #161616;
+    opacity: .8;
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{   
+    cursor: pointer;
+    background: rgba(179, 115, 32, 0.774); 
+    color: black;
+    border: 1px solid black;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(32, 27, 27);
+    line-height: 20px;
+    width: 100%;
+}
+.loginbox a:hover
+{
+color: red;
+text-decoration: underline;
+}
